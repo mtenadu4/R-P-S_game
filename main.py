@@ -23,4 +23,6 @@ elif user_action == "S":
         print("Player wins")
     else:
         print("CPU wins")
-        
+
+if(user_action not in possible_actions):
+    print("data not found")
